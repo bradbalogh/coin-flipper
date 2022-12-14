@@ -1,0 +1,11 @@
+App(
+    appid="coin_flipper",
+    name="Coin Flipper",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="coin_flipper_main",
+    requires=["gui"],
+    stack_size=1 * 1024,
+    fap_icon="coin_flipper.png",
+    fap_category="Misc",
+    fap_icon_assets="images",
+)
